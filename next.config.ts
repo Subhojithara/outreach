@@ -1,8 +1,9 @@
-import { NextConfig } from 'next';
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  optimizeFonts: false,
-
+  env: {
+    TAILWINDCSS_DISABLE_OXIDE: "1"
+  }
 };
 
 export default nextConfig;
