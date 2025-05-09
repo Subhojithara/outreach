@@ -172,7 +172,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Connect with decision-makers and grow your network. Our AI-powered
+            Connect with decision-makers and grow your network Our AI-powered
             tool finds verified email addresses instantly with{" "}
             <span className="relative font-semibold">
               <motion.span
